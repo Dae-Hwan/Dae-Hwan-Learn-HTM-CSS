@@ -1,31 +1,19 @@
-.quote {
-  font-size: 32px;
-  line-height: 32px;
-  text-align: center;
-  font-family: 'Nanum Pen Script', cursive;
-  margin-top: 75px;
-}
-
-.quote span {
+.env-div {
+  width: 500px;
+  height: 232px;
   position: relative;
-  font-size: 96px;
 }
 
-.first {
-  top: 20px;
-  margin-right: 15px;
+.address {
+  font-family: cursive;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+
 }
 
-.last {
-  top: 80px;
-  margin-left: 15px;
+.stamp {
+  position: absolute;
+  top: 30px;
+  right: 30px;
 }
-
-.figure {
-  margin-top: 50px;
-}
-
-
-/*
-이곳에 코드를 작성하세요.
-*/
