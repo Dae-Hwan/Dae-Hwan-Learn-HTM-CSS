@@ -1,53 +1,58 @@
-body {
-  margin: 0;
+@font-face {
+  src:url(../fonts/BMJUA_ttf.ttf);
+  font-family: Jua;
 }
 
-/* 전체 */
+* {
+  box-sizing: border-box;
+  font-family: Jua;
+  color: #58595B;
+}
 
-div {
-  height: 200px;
+body {
+  background-color: #F0E8D9
+}
+
+.title {
+  text-align: center;
+  margin: 75px 0;
+}
+
+.title h1 {
+  font-size: 64px;
+  margin-bottom: 30px;
+}
+
+.title h2 {
+  font-size: 32px;
+}
+
+.contents {
+  width: 660px;
+  margin: 0 auto;
+}
+
+.food {
+  width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: white;
+  margin: 0 15px 50px 15px;
   float: left;
 }
 
-.hundred {
-  width: 100%;
-}
-
-.half {
-  width: 50%;
-}
-
-.four {
-  width: 25%;
-}
-
-/* 개별 */
-
-#red {
-  background-color: red;
-}
-
-#orange {
-  background-color: orange;
+.food img {
+  width: 300px;
+  height: 200px;
 
 }
 
-#yellow {
-  background-color: yellow;
+.food .text {
+  padding: 20px;
 }
 
-#green {
-  background-color: green;
-}
-
-#blue {
-  background-color: blue;
-}
-
-#indigo {
-  background-color: indigo;
-}
-
-#purple {
-  background-color: purple;
+.food .text h3 {
+  text-align: center;
+  font-size: 32px;
+  margin: 0 0 0 20px;
 }
